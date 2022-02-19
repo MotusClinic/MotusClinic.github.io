@@ -1,0 +1,25 @@
+.ourTeam {
+    font-family: 'Now Alt Regular';
+}
+
+.heading {
+    font-size: 40px;
+    font-family: 'Now Alt Regular';
+    color: white;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.paragraph {
+    font-family: 'Now Alt Regular';
+    color: white;
+    font-size: 30px;
+}
+
+/* import now alt font */
+@font-face {
+    font-family: 'Now Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Now Alt Regular'), url('../../fonts/now-alt-cufonfonts-webfont/NowAlt-Regular.woff') format('woff');
+    }

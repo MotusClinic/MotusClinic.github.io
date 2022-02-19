@@ -1,0 +1,42 @@
+.image {
+    border-style: solid;
+    border-color: white;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.quote {
+    font-style: italic;
+}
+
+
+.profile {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.name {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.header {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    max-width: 80%;
+    line-height: 1.5;
+}

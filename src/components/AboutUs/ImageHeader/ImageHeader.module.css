@@ -1,0 +1,55 @@
+.imageSection{
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgb(25, 25, 25) 0.5%, transparent 150%), url('../../../images/clinicPicture.jpeg');
+}
+
+.slogan {
+    color: white;
+    font-family: 'Now Alt Regular';
+    line-height: 2;
+}
+
+.container {
+    top: 0;
+    text-align: center;
+}
+
+.content {
+    padding-top: 120px;
+}
+
+.bookNow{
+    background-color: rgb(25, 25, 25);
+    font-family: 'Now Alt Regular';
+    border-radius: 5px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-color: rgb(25, 25, 25);
+
+}
+
+.bookNow:hover{
+    background-image: rgb(25, 25, 25);
+    font-family: 'Now Alt Regular';
+    border-radius: 5px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+    animation-name: colorPop;
+    animation-duration: 5s;
+}
+
+@keyframes colorPop {
+    0%   {background-color: rgb(25, 25, 25); border-color: rgb(25, 25, 25);}
+    10%  {background-color: rgb(217, 217, 217); color: rgb(25, 25, 25); border-color: white;}
+    20% {background-color: rgb(25, 25, 25); color: rgb(217, 217, 217); border-color: rgb(25, 25, 25);}
+}
+
+@font-face {
+    font-family: 'Now Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Now Alt Regular'), url('../../../fonts/now-alt-cufonfonts-webfont/NowAlt-Regular.woff') format('woff');
+    }

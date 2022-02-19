@@ -1,0 +1,35 @@
+.appointments {
+    font-family: 'Now Alt Regular';
+}
+
+.box {
+    font-size: 40px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.appointmentType {
+    font-size: 60px;
+}
+
+.description {
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.601);
+}
+
+.boxes {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 100px;
+}
+
+/* import now alt font */
+@font-face {
+    font-family: 'Now Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Now Alt Regular'), url('../../fonts/now-alt-cufonfonts-webfont/NowAlt-Regular.woff') format('woff');
+    }

@@ -1,0 +1,10 @@
+.aboutUs {
+    font-family: 'Now Alt Regular';
+}
+/* import now alt font */
+@font-face {
+    font-family: 'Now Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Now Alt Regular'), url('../../fonts/now-alt-cufonfonts-webfont/NowAlt-Regular.woff') format('woff');
+    }

@@ -1,0 +1,26 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: 'Now Alt Regular';
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+
+}
+
+.icon {
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Now Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Now Alt Regular'), url('../../fonts/now-alt-cufonfonts-webfont/NowAlt-Regular.woff') format('woff');
+    }

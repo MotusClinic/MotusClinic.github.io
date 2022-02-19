@@ -1,0 +1,43 @@
+
+.header {
+    background-color: rgb(25, 25, 25);
+}
+
+.heading {
+    color: white;
+    font-size: 60px;
+    font-family: 'Now Alt Regular';
+}
+
+/* top of the header: logo and name */
+.topHeader {
+    display: flex;
+    flex-flow: space-evenly;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* bottom of the header: pageTabs*/
+.bottomHeader {
+    display: flex;
+    align-items: center;
+    flex-shrink: 3;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.logo {
+    width: 100px; /* logo size */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* import now alt font */
+@font-face {
+    font-family: 'Now Alt Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Now Alt Regular'), url('../../fonts/now-alt-cufonfonts-webfont/NowAlt-Regular.woff') format('woff');
+    }
